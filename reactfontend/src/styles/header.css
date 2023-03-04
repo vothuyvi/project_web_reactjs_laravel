@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;
+    padding   : 0;
+    margin    : 0;
+}
+
+html {
+    font-family     : Arial, Helvetica, sans-serif;
+    font-size       : 62.5%;
+    background-color: white;
+}
+
+.header_logo {
+    background-color: rgb(94, 132, 238);
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+
+
+}
+
+.logo_img {
+    margin-right: 2rem;
+}
+
+.logo_img img {
+    width     : 11rem;
+    height    : 10rem;
+    margin    : 0.5rem 0;
+    transition: width 1s, height 1s;
+    position  : relative
+}
+
+.logo_img img:hover {
+    width : 12rem;
+    height: 11rem;
+}
+
+
+.header_language {
+    display    : flex;
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+.header_language--item {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    padding        : 0.5rem 1rem;
+    font-size      : 1.4rem;
+    color          : white;
+}
+
+.header_language--item:hover {
+    background-color: rgb(42, 82, 227);
+    cursor          : pointer;
+}
+
+.header_language--item span {
+    margin-left: 0.5rem;
+}
+
+.header_logo--left {
+    display        : flex;
+    justify-content: space-between;
+    margin-left    : 3rem;
+}
+
+.header_language img {
+    width : 4rem;
+    height: 4rem;
+}
+
+.header_logo_right {
+    margin-right: 2rem;
+    display     : flex;
+
+}
+
+.header_logo_right span {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    margin-left    : 1.5rem;
+    border-radius  : 50%;
+    width          : 4.2rem;
+    height         : 4.2rem;
+    font-size      : 2.5rem;
+    cursor         : pointer;
+    color          : white;
+
+
+}
+
+.header_logo_right span:hover {
+    background-color: #ddd;
+    color           : #f44336;
+
+}
+
+.btn {
+    padding         : 0.8rem 1rem;
+    margin-right    : 1rem;
+    border          : 0;
+    color           : rgb(94, 132, 238);
+    background-color: white;
+    font-weight     : 700;
+    border-radius   : 0.5rem;
+    font-size       : 1.5rem;
+    border-bottom   : 0.2rem black solid;
+
+}
+
+.btn:hover {
+    cursor          : pointer;
+    color           : red;
+    background-color: #f4f2f2;
+    border          : 0.1rem #f4f2f2 solid;
+}
+
+.header_top {
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    height          : 5.4rem;
+    font-size       : 2rem;
+    font-weight     : 700;
+    color           : rgb(94, 132, 238);
+    padding         : 0 2.5rem;
+    background-color: #fff;
+    box-shadow      : 0px 2px 18px #888888;
+    margin          : 0.5rem 1rem;
+    border-radius   : 0.4rem;
+
+
+}
+
+.header_left {
+    display: flex;
+}
+
+.header_left span {
+    padding: 0.5rem 1rem;
+}
+
+
+.header_left span:hover {
+    cursor: pointer;
+    color : red;
+}
+
+
+.subnav {
+    font-size       : 1.4rem;
+    width           : 19rem;
+    margin-top      : 0.5rem;
+    color           : rgb(94, 132, 238);
+    background-color: white;
+    display         : flex;
+    flex-direction  : column;
+    position        : absolute;
+    z-index         : 100;
+    box-shadow      : 0px 2px 18px #888888;
+    border-radius   : 0.4rem;
+
+
+}
+
+.subnav span {
+    display      : none;
+    border-bottom: 0.1rem #000 solid;
+    padding      : 1rem 1rem;
+}
+
+.subnav span:hover {
+    background-color: #f4eeee;
+}
+
+
+.header_left span:hover .subnav span {
+    display: block;
+}
+
+.header_right {
+    display    : flex;
+    align-items: center;
+}
+
+.tim {
+    background-color: white;
+    color           : rgb(94, 132, 238);
+    padding         : 0.5rem 0.5rem;
+    border-radius   : 1rem;
+    margin-left     : 0.5rem;
+    border          : 0;
+    font-size       : 1.8rem;
+    font-weight     : bold;
+    margin-right    : 0.5rem;
+
+}
+
+.tim:hover {
+    color           : #f44336;
+    background-color: #fff;
+
+}
+
+.nhap {
+    border       : 0;
+    border-bottom: 1px solid rgb(94, 132, 238);
+    padding      : 0.8rem 1rem;
+    border-radius: 0.5rem;
+    width        : 26rem;
+    outline-color: rgb(94, 132, 238);
+}

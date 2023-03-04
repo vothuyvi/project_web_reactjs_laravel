@@ -1,0 +1,75 @@
+.footer {
+    height          : 36rem;
+    background-color: rgb(94, 132, 238);
+    color           : #fff;
+    display         : flex;
+    justify-content : space-between;
+    align-items     : center;
+    font-size       : 1.6rem;
+}
+
+.socials-list i {
+
+    margin-left: 5rem;
+
+}
+
+.footer_name {
+    padding-bottom: 2rem;
+    margin-left   : 6rem;
+    font-size     : 2rem;
+    font-weight   : bold;
+
+
+}
+
+.socials-list_center {
+    margin-left: 6rem;
+}
+
+
+
+.footer_name_contact {
+    padding-bottom: 2rem;
+    font-weight   : bold;
+    font-size     : 2rem;
+    margin-left   : 6rem;
+    margin-top    : 4rem;
+}
+
+.socials-list_center p {
+    margin-left  : 6rem;
+    margin-bottom: 0.5rem;
+}
+
+.socials-list_center p:hover {
+    color : #f44336;
+    cursor: pointer;
+
+}
+
+.footer .socials-list i:hover {
+    color : #f44336;
+    cursor: pointer;
+
+}
+
+.footer_name_vc {
+    margin-bottom: 0.8rem;
+    margin-left  : 6rem;
+    margin-top: 2rem;
+    font-size    : 2rem;
+    font-weight  : bold;
+}
+
+.socials-list_right {
+    margin-right: 4rem;
+    font-style  : italic;
+    font-size   : 4rem;
+    font-weight : bold;
+}
+
+.name_header:hover {
+    color: #f44336;
+
+}
