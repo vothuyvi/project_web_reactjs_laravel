@@ -1,0 +1,160 @@
+.container_giavi {
+    width     : 100%;
+    height    : fit-content;
+    margin-top: 2rem;
+
+}
+
+.giavi_title {
+    width       : 80%;
+    margin-left : auto;
+    margin-right: auto;
+    margin-top  : 2rem;
+}
+
+.giavi_title h3 {
+    color    : rgb(94, 132, 238);
+    font-size: 2rem;
+
+}
+
+.giavi_title p {
+    font-size  : 1.7rem;
+    font-weight: 500;
+}
+
+.container_giavi_new {
+    width                : 80%;
+    display              : grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    flex-wrap            : wrap;
+    margin-left          : auto;
+    margin-right         : auto;
+
+
+}
+
+.giavi_list {
+    height          : fit-content;
+    margin          : 1.5rem 1rem;
+    padding         : 4rem 0rem;
+    border-radius   : 0.5rem;
+    background-color: #fff;
+    box-shadow      : 0px 2px 16px #eeebeb;
+
+
+}
+
+.giavi_list img {
+    width        : 100%;
+    height       : 100%;
+    object-fit   : cover;
+    padding-left : 3rem;
+    padding-right: 3rem;
+}
+
+.giavi_list img:hover {
+    cursor : pointer;
+    opacity: 0.7;
+}
+
+.name_sp {
+    width      : 100%;
+    font-size  : 1.5rem;
+    font-weight: 400;
+    align-items: center;
+    text-align : center;
+    margin-top : 1rem;
+
+}
+
+.spice_sp {
+    font-size  : 2rem;
+    font-weight: bold;
+    text-align : center;
+    margin-top : 1rem;
+}
+
+.btn_buy {
+    display        : flex;
+    justify-content: center;
+}
+
+.btn_buy button {
+    margin-top      : 1rem;
+    padding         : 1rem;
+    border-radius   : 1rem;
+    border          : 0;
+    font-weight     : bold;
+    font-size       : 1.6rem;
+    cursor          : pointer;
+    background-color: #fff;
+    border          : 2px solid #1E90FF;
+
+}
+
+.btn_buy button:hover {
+    background-color: #1E90FF;
+    color           : #000;
+}
+
+.container_giavi_best {
+    margin-top: 2rem;
+}
+
+.container_congthuc {
+    width    : 100%;
+    display  : flex;
+    flex-wrap: wrap;
+    padding  : 2rem;
+
+}
+
+.container_congthuc--left {
+    width      : 60%;
+    padding-top: 2rem;
+
+}
+
+.container_congthuc--right {
+    width          : 40%;
+    display        : flex;
+    justify-content: space-between;
+    flex-wrap      : wrap;
+    padding-left   : 2rem;
+}
+
+.congthuc_list {
+    width           : 33.33333%;
+    height          : 22rem;
+    margin-top      : 2rem;
+    padding         : 1rem 1rem;
+    border-radius   : 0.5rem;
+    background-color: #fff;
+    box-shadow      : 0px 2px 16px #bfbdbd;
+}
+
+.congthuc_list img {
+    width     : 100%;
+    height    : 14rem;
+    object-fit: cover;
+
+}
+
+.congthuc_list img:hover {
+    opacity: 0.7;
+    cursor : pointer;
+}
+
+.name_congthuc {
+    font-size  : 1.5rem;
+    font-weight: bold;
+    text-align : center;
+    padding-top: 1rem;
+    color      : rgb(94, 132, 238);
+}
+
+.name_congthuc:hover {
+    cursor: pointer;
+    color : red;
+}

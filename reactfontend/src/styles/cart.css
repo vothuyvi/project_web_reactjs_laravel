@@ -1,0 +1,113 @@
+.body_cart {
+    width           : 80%;
+    margin-left     : auto;
+    margin-right    : auto;
+    margin-bottom   : 2rem;
+    margin-top      : 2rem;
+    background-color: white;
+    font-size       : 1.4rem;
+    border-radius   : 0.5rem;
+}
+
+h2 {
+    text-align : center;
+    font-size  : 3.8rem;
+    color      : rgb(36, 132, 228);
+    font-weight: bold;
+    padding    : 3rem;
+}
+
+table,
+th,
+td {
+    border: 0;
+}
+
+.body_cart table {
+    width: 100%;
+}
+
+
+.tr1 th {
+    padding    : 2rem;
+    font-weight: bold;
+    font-size  : 1.6rem;
+}
+
+.tr1,
+.tr2 {
+    border-bottom: 0.1rem solid #e3e0e0;
+}
+.tr2 td {
+    font-weight: 400;
+}
+
+.tr3 td {
+    padding     : 1rem;
+    margin-right: 2rem;
+    font-size   : 1.8rem;
+    font-weight : bold;
+}
+
+.td_tt {
+    text-align: right;
+}
+
+.td_price {
+    text-align: center;
+}
+
+.body_cart img {
+    width     : 10rem;
+    height    : 10rem;
+    object-fit: cover;
+}
+
+
+.quantity button {
+    width           : 2rem;
+    font-weight     : bold;
+    font-size       : 1.6rem;
+    height          : 2rem;
+    margin          : 1.2rem;
+    background-color: rgb(36, 132, 228);
+    border-radius   : 0.6rem;
+    border          : 0;
+
+}
+
+.quantity button:hover {
+    background-color: black;
+    color           : white;
+}
+
+.delete {
+    font-size  : 1.4rem;
+    font-weight: bold;
+}
+
+.delete:hover {
+    color: red;
+
+}
+
+.td_btn {
+    text-align: center;
+
+}
+
+.tr3 button {
+    padding         : 1.2rem 1rem;
+    border          : 0;
+    font-size       : 1.4rem;
+    font-weight     : bold;
+    border-radius   : 0.5rem;
+    border          : 0.1rem solid rgb(36, 132, 228);
+    background-color: white;
+}
+
+.tr3 button:hover {
+    background-color: rgb(36, 132, 228);
+    cursor          : pointer;
+
+}

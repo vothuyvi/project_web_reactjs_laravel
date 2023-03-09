@@ -9,4 +9,8 @@ class Giavi extends Model
 {
     use HasFactory;
     protected $table = 'giavi';
+    
+    public function loaiGv() {
+        return $this->belongsTo(Loaigv::class, 'id_loaiGV', 'id');
+    }
 }

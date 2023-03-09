@@ -138,7 +138,8 @@ html {
 }
 
 .header_left {
-    display: flex;
+    display    : flex;
+    align-items: center;
 }
 
 .header_left span {
@@ -156,6 +157,7 @@ html {
     font-size       : 1.4rem;
     width           : 19rem;
     margin-top      : 0.5rem;
+    margin-left     : 1rem;
     color           : rgb(94, 132, 238);
     background-color: white;
     display         : flex;
@@ -214,4 +216,219 @@ html {
     border-radius: 0.5rem;
     width        : 26rem;
     outline-color: rgb(94, 132, 238);
+}
+
+.container_slick {
+    width       : 80%;
+    margin-left : auto;
+    margin-right: auto;
+
+}
+
+.img-best img:hover {
+    cursor : pointer;
+    opacity: 0.7;
+}
+
+.slick-prev {
+    left         : -1rem !important;
+    z-index      : 100 !important;
+    height       : 3rem !important;
+    width        : 3rem !important;
+    border-radius: 50% !important;
+}
+
+.slick-prev:hover {
+    background-color: #eceaea !important;
+}
+
+.slick-prev::before {
+    font-family: FontAwesome !important;
+    color      : black !important;
+    font-weight: 900 !important;
+}
+
+.slick-next {
+
+    right        : -1rem !important;
+    z-index      : 100 !important;
+    height       : 3rem !important;
+    width        : 3rem !important;
+    border-radius: 50% !important;
+}
+
+.slick-next:hover {
+    background-color: #eceaea !important;
+}
+
+.slick-next::before {
+    font-family: FontAwesome !important;
+    color      : black !important;
+    font-weight: 900 !important;
+}
+
+.img-best {
+    width         : 25%;
+    text-align    : center;
+    margin-bottom : 2rem;
+    display       : flex;
+    flex-direction: column;
+
+}
+
+.img-best img {
+    width     : 100%;
+    object-fit: cover;
+
+}
+
+.img-best p {
+    font-size  : 1.3rem;
+    font-weight: 400;
+}
+
+.img-best span {
+    font-size  : 2rem;
+    font-weight: bold;
+}
+
+.header_cart_model {
+    position        : absolute;
+    z-index         : 100;
+    right           : 0;
+    top             : 0;
+    width           : 30rem;
+    height          : 100%;
+    background-color: white;
+    box-shadow      : 0px 2px 18px #888888;
+    display         : none;
+    position        : fixed;
+    border-radius: 0.5rem;
+
+
+}
+
+.header_cart_model--title {
+    background-color: #e8e7e7;
+}
+
+.header_cart_model span {
+    font-size      : 2rem;
+    font-weight    : bold;
+    display        : flex;
+    justify-content: flex-end;
+    padding        : 1rem;
+    margin-right   : 1rem;
+
+
+}
+
+.header_cart_model span:hover {
+    cursor: pointer;
+    color : red;
+}
+
+input {
+    display: none;
+}
+
+input:checked+.header_cart_model {
+    display: block !important;
+
+}
+
+.cart_item {
+    padding         : 1rem;
+    background-color: white;
+    box-shadow      : 0px 2px 18px #888888;
+
+}
+
+table,
+th,
+td {
+    border         : 0.1rem solid black;
+    border-collapse: collapse;
+
+}
+
+.cart_item td img {
+    padding   : 0.5rem;
+    width     : 8rem;
+    height    : 7rem;
+    object-fit: cover;
+
+}
+th {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+td {
+    font-size  : 1.2rem;
+    text-align : center;
+}
+
+.tr2 {
+    text-align: center;
+    font-size : 1.2;
+}
+
+.xoa {
+    font-size  : 1.2rem;
+    font-weight: bold;
+}
+
+.xoa p {
+    padding      : 1rem;
+    border-radius: 50%;
+}
+
+.xoa p:hover {
+    background-color: #f44336;
+    color           : white;
+    cursor          : pointer;
+}
+
+.header_cart-bot {
+    width          : 100%;
+    position       : absolute;
+    bottom         : 0;
+    right          : 0;
+    left           : 0;
+    display        : flex;
+    justify-content: space-between;
+    padding        : 2rem;
+    border-top     : 0.1rem solid black;
+    font-size      : 1.4rem;
+    background-color: #e8e7e7;
+}
+
+.cart_bot_btn {
+    width: 40%;
+}
+
+.cart_bot_btn button {
+    margin-top      : 1rem;
+    padding         : 1rem 0.5rem;
+    border-radius   : 1rem;
+    border          : 0;
+    font-size       : 1.3rem;
+    font-weight     : bold;
+    cursor          : pointer;
+    background-color: #fff;
+    border          : 2px solid #1E90FF;
+}
+
+.cart_bot_btn button:hover {
+    background-color: #1E90FF;
+    color           : #000;
+}
+
+.cart_bot_tt {
+    width      : 60%;
+    margin-top : 1rem;
+    padding    : 1rem;
+    font-weight: bold;
+    text-align : right;
 }

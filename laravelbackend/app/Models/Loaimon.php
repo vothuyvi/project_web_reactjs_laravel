@@ -9,4 +9,10 @@ class Loaimon extends Model
 {
     use HasFactory;
     protected $table = 'loaimon';
+
+
+    public function monan() {
+        return $this->hasMany(Monan::class, 'id');
+    }
 }
+

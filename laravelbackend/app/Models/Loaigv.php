@@ -9,4 +9,8 @@ class Loaigv extends Model
 {
     use HasFactory;
     protected $table = 'loaigv';
+
+    public function giavi() {
+        return $this->hasMany(Giavi::class, 'id_loaiGV', 'id');
+    }
 }
